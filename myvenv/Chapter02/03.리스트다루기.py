@@ -35,17 +35,23 @@ numbers = [2,5,6,7,8,9,10]
 for index, number in enumerate(numbers):
     print(index,number)
 
-# # 리스트 데이터 삭제
-# fruits = ['apple', 'orange', 'mango']
-# del fruits[1]
-# print(fruits)
+# 리스트 데이터 삭제
+fruits = ['apple', 'orange', 'mango']
+del fruits[1]
+print(fruits)
 
-# # 리스트 정렬
-# numbers = [5, 1, 2, 8, 3]
-# numbers.sort()
-# print(numbers)
+# 리스트 정렬
+numbers = [5, 1, 2, 8, 3]
+numbers.sort()
+print(numbers)
 
 # # enumerate
+titles = ['오늘','날씨','어디인가']
+
+for index, title in enumerate(titles, 1):
+    print(f'{index} 번쨰 글입니다. 제목 : {title}')
+ 
+    
 # titles = ['출석!!', '출석인증합니다!', '출석이요!!']
 
 # for index, title in enumerate(titles, 1):
